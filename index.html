@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="box">
+         
+         <h1 class="heading">Todo List</h1>
+
+         <form class="form">
+            <input class="todo__input" type="text" placeholder="type...">
+
+            <button class="btn" type="submit">Send</button>
+
+         </form>
+         
+         <div class="todo__controls">
+            <button class="all__btn btn">All <strong class="all__count btn-count">0</strong></button>
+            <button class="completed__btn btn">Completed <strong class="completed__count btn-count">0</strong></button>
+            <button class="uncompleted__btn btn">Uncompleted <strong class="uncompleted__count btn-count">0</strong></button>
+         </div>
+
+         <ul class="todo__list"></ul>
+         
+      </div>
+   </div>
+
+   <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+.container{
+   width: 100%;
+   max-width: 1340px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.heading{
+   margin: 0;
+   margin-bottom: 24px;
+   font-size: 48px;
+   text-align: center;
+   color:  rgba(0, 0, 0, 0.8);
+}
+
+.box{
+   display: block;
+   width: 100%;
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+.form{
+   display: flex;
+   width: 250px;
+   margin: 0 auto;
+   margin-bottom: 25px; 
+}
+
+.todo__input{
+   display: block;
+   width: 200px;
+   padding: 5px;
+}
+
+.btn{
+   display:block; 
+   padding: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover{
+   opacity: 0.7;
+}
+
+.btn:active{
+   border: red 2px solid;
+   color: red;
+}
+
+.todo__controls{
+   display: flex;
+   width: 100%;
+   max-width: 500px;
+   justify-content: space-evenly;
+   margin: 0 auto;
+   margin-bottom: 15px;
+}
+
+.btn-count{
+   color: red;
+}
+
+.todo__list{
+   display: block;
+   width: 100%;
+   max-width: 160px;
+   margin: 0 auto;
+   padding: 0;
+   list-style-type: disc;
+}
+
+.todo__item{
+   display: block;
+   width: 100%;
+   max-width: 300px;
+   margin: 0 auto;
+   font-size: 18px;
+}
+
+.chexbox__todo{
+   display: inline-block;
+   margin-right: 5px;
+   margin-left: 5px;
+   padding: 10px;
+}
+
+.delete__btn{
+   display: inline-block; 
+   width: 80px;
+   padding: 3px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.delete__btn:hover{
+   opacity: 0.7;
+}
+
+.delete__btn:active{
+   border: red 2px solid;
+   color: red;
+}
+
+
+
